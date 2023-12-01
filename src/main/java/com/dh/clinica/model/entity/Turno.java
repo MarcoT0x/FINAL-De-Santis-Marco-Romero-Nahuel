@@ -1,14 +1,10 @@
 package com.dh.clinica.model.entity;
 
-public class Turno {
-}
-package com.dh.clinica.model.entity;
+import lombok.Getter;
+import lombok.ToString;
 
-        import lombok.Getter;
-        import lombok.ToString;
-
-        import javax.persistence.*;
-        import java.time.LocalDate;
+import javax.persistence.*;
+import java.time.LocalDate;
 
 
 

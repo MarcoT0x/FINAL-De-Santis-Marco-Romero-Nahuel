@@ -56,7 +56,7 @@ public class OdontologoController {
     @DeleteMapping("/{id}")
     public ResponseEntity<String> eliminar(@PathVariable Long id) throws ResourceNotFoundException {
 
-        odontologoService.eliminarOdontologo(id);
+            odontologoService.eliminarOdontologo(id);
 
         return ResponseEntity.status(HttpStatus.NO_CONTENT).body("Odontólogo eliminado correctamente");
     }

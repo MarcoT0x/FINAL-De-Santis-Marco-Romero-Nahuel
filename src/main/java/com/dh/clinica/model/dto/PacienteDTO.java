@@ -3,7 +3,6 @@ package com.dh.clinica.model.dto;
 import com.dh.clinica.model.entity.Domicilio;
 import lombok.Getter;
 
-
 import java.time.LocalDate;
 
 
